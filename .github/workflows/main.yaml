@@ -23,5 +23,5 @@ jobs:
 
       - name: Deploy a Surge
         run: |
-          surge ./ https://spotted-soap.surge.sh/ \
+          surge ./ practica-parcial-cvidal.surge.sh \
           --token ${{ secrets.SURGE_TOKEN }}
